@@ -13,6 +13,7 @@
 		D796F2B51FF6F47200EF521E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D796F2B31FF6F47200EF521E /* Main.storyboard */; };
 		D796F2B71FF6F47200EF521E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D796F2B61FF6F47200EF521E /* Assets.xcassets */; };
 		D796F2BA1FF6F47200EF521E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D796F2B81FF6F47200EF521E /* LaunchScreen.storyboard */; };
+		D796F2C21FF6F9BF00EF521E /* estudoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796F2C11FF6F9BF00EF521E /* estudoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D796F2B61FF6F47200EF521E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D796F2B91FF6F47200EF521E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D796F2BB1FF6F47200EF521E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D796F2C11FF6F9BF00EF521E /* estudoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estudoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 		D796F2AC1FF6F47200EF521E /* estudoAR */ = {
 			isa = PBXGroup;
 			children = (
+				D796F2C11FF6F9BF00EF521E /* estudoViewController.swift */,
+				D796F2C31FF6F9DE00EF521E /* arquivos */,
 				D796F2AD1FF6F47200EF521E /* AppDelegate.swift */,
 				D796F2AF1FF6F47200EF521E /* art.scnassets */,
 				D796F2B11FF6F47200EF521E /* ViewController.swift */,
@@ -65,6 +69,13 @@
 				D796F2BB1FF6F47200EF521E /* Info.plist */,
 			);
 			path = estudoAR;
+			sourceTree = "<group>";
+		};
+		D796F2C31FF6F9DE00EF521E /* arquivos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = arquivos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			files = (
 				D796F2B21FF6F47200EF521E /* ViewController.swift in Sources */,
 				D796F2AE1FF6F47200EF521E /* AppDelegate.swift in Sources */,
+				D796F2C21FF6F9BF00EF521E /* estudoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
