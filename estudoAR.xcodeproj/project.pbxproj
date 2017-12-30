@@ -14,6 +14,13 @@
 		D796F2B71FF6F47200EF521E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D796F2B61FF6F47200EF521E /* Assets.xcassets */; };
 		D796F2BA1FF6F47200EF521E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D796F2B81FF6F47200EF521E /* LaunchScreen.storyboard */; };
 		D796F2C21FF6F9BF00EF521E /* estudoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796F2C11FF6F9BF00EF521E /* estudoViewController.swift */; };
+		D796F2C51FF732EF00EF521E /* dragao.dae in Resources */ = {isa = PBXBuildFile; fileRef = D796F2C41FF732EF00EF521E /* dragao.dae */; };
+		D796F2C71FF7347100EF521E /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796F2C61FF7347100EF521E /* AddItem.swift */; };
+		D796F2CA1FF7485800EF521E /* Dragon_Bump_Col.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D796F2C81FF7485700EF521E /* Dragon_Bump_Col.jpg */; };
+		D796F2CB1FF7485800EF521E /* Dragon_Nor_mirror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D796F2C91FF7485800EF521E /* Dragon_Nor_mirror.jpg */; };
+		D796F2CD1FF748FF00EF521E /* Dragon_ground_color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D796F2CC1FF748FF00EF521E /* Dragon_ground_color.jpg */; };
+		D796F2D21FF74BFD00EF521E /* felpudoFlappy.dae in Resources */ = {isa = PBXBuildFile; fileRef = D796F2D01FF74BFD00EF521E /* felpudoFlappy.dae */; };
+		D796F2D31FF74BFD00EF521E /* texturaFelpudoFlappy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D796F2D11FF74BFD00EF521E /* texturaFelpudoFlappy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		D796F2B91FF6F47200EF521E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D796F2BB1FF6F47200EF521E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D796F2C11FF6F9BF00EF521E /* estudoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estudoViewController.swift; sourceTree = "<group>"; };
+		D796F2C41FF732EF00EF521E /* dragao.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = dragao.dae; sourceTree = "<group>"; };
+		D796F2C61FF7347100EF521E /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		D796F2C81FF7485700EF521E /* Dragon_Bump_Col.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dragon_Bump_Col.jpg; sourceTree = "<group>"; };
+		D796F2C91FF7485800EF521E /* Dragon_Nor_mirror.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dragon_Nor_mirror.jpg; sourceTree = "<group>"; };
+		D796F2CC1FF748FF00EF521E /* Dragon_ground_color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dragon_ground_color.jpg; sourceTree = "<group>"; };
+		D796F2D01FF74BFD00EF521E /* felpudoFlappy.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = felpudoFlappy.dae; sourceTree = "<group>"; };
+		D796F2D11FF74BFD00EF521E /* texturaFelpudoFlappy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texturaFelpudoFlappy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D796F2C11FF6F9BF00EF521E /* estudoViewController.swift */,
+				D796F2C61FF7347100EF521E /* AddItem.swift */,
 				D796F2C31FF6F9DE00EF521E /* arquivos */,
 				D796F2AD1FF6F47200EF521E /* AppDelegate.swift */,
 				D796F2AF1FF6F47200EF521E /* art.scnassets */,
@@ -74,8 +89,30 @@
 		D796F2C31FF6F9DE00EF521E /* arquivos */ = {
 			isa = PBXGroup;
 			children = (
+				D796F2CF1FF74BE300EF521E /* passarinho */,
+				D796F2CE1FF74BD100EF521E /* Dragao */,
 			);
 			path = arquivos;
+			sourceTree = "<group>";
+		};
+		D796F2CE1FF74BD100EF521E /* Dragao */ = {
+			isa = PBXGroup;
+			children = (
+				D796F2C41FF732EF00EF521E /* dragao.dae */,
+				D796F2CC1FF748FF00EF521E /* Dragon_ground_color.jpg */,
+				D796F2C81FF7485700EF521E /* Dragon_Bump_Col.jpg */,
+				D796F2C91FF7485800EF521E /* Dragon_Nor_mirror.jpg */,
+			);
+			path = Dragao;
+			sourceTree = "<group>";
+		};
+		D796F2CF1FF74BE300EF521E /* passarinho */ = {
+			isa = PBXGroup;
+			children = (
+				D796F2D01FF74BFD00EF521E /* felpudoFlappy.dae */,
+				D796F2D11FF74BFD00EF521E /* texturaFelpudoFlappy.jpg */,
+			);
+			path = passarinho;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +175,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D796F2B01FF6F47200EF521E /* art.scnassets in Resources */,
+				D796F2C51FF732EF00EF521E /* dragao.dae in Resources */,
+				D796F2D21FF74BFD00EF521E /* felpudoFlappy.dae in Resources */,
 				D796F2BA1FF6F47200EF521E /* LaunchScreen.storyboard in Resources */,
 				D796F2B71FF6F47200EF521E /* Assets.xcassets in Resources */,
 				D796F2B51FF6F47200EF521E /* Main.storyboard in Resources */,
+				D796F2CD1FF748FF00EF521E /* Dragon_ground_color.jpg in Resources */,
+				D796F2CA1FF7485800EF521E /* Dragon_Bump_Col.jpg in Resources */,
+				D796F2CB1FF7485800EF521E /* Dragon_Nor_mirror.jpg in Resources */,
+				D796F2D31FF74BFD00EF521E /* texturaFelpudoFlappy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D796F2B21FF6F47200EF521E /* ViewController.swift in Sources */,
+				D796F2C71FF7347100EF521E /* AddItem.swift in Sources */,
 				D796F2AE1FF6F47200EF521E /* AppDelegate.swift in Sources */,
 				D796F2C21FF6F9BF00EF521E /* estudoViewController.swift in Sources */,
 			);
